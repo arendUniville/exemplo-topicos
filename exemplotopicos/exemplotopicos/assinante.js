@@ -2,7 +2,7 @@ const { delay, ServiceBusClient, ServiceBusMessage } = require("@azure/service-b
 const { DefaultAzureCredential } = require("@azure/identity");
 const WebSocket = require('ws');
 // Replace `<SERVICE-BUS-NAMESPACE>` with your namespace
-const fullyQualifiedNamespace = "<SERVICE-BUS-NAMESPACE>.servicebus.windows.net";
+const fullyQualifiedNamespace = "waltercoan.servicebus.windows.net";
 
 // Passwordless credential
 const credential = new DefaultAzureCredential();
@@ -13,8 +13,8 @@ const connectionOptions = {
     }
 };
 
-const topicName = "<NOME DO TOPICO>";
-const subscriptionName = "<NOME DA ASSINATURA>";
+const topicName = "univille";
+const subscriptionName = "matheusarend";
 
  async function main() {
     // create a Service Bus client using the passwordless authentication to the Service Bus namespace

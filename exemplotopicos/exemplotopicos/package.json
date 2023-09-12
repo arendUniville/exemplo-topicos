@@ -1,0 +1,17 @@
+{
+  "name": "exemplotopicos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^3.3.0",
+    "@azure/service-bus": "^7.9.1",
+    "ws": "^8.14.1"
+  }
+}
